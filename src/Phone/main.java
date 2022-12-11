@@ -7,6 +7,5 @@ public class main {
         ph1.getNumber();
         ph1.receiveCall("Alexandr",1443773);
         System.out.println(ph1);
-
     }
 }
