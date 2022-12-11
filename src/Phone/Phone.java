@@ -1,11 +1,11 @@
 package Phone;
 
+import java.util.Arrays;
+
 public class Phone {
     private int number;
     private String model;
     private int weight;
-
-
     public int getNumber() {
         return number;
     }
@@ -25,12 +25,16 @@ public class Phone {
         this.model = model;
         this.weight = weight;
     }
-void receiveCall(String name){
-
-
-}
+    void receiveCall(String name){
+    System.out.println("call " + name +
+           " number -> " + getNumber());
+ }
     void receiveCall(String name,int number){
-        System.out.println( "Звонит " +name+getNumber());
+        System.out.println("call " + name +
+                " number -> " + number);
+    }
+    void sendMessage(int...numbers){
+        System.out.println(Arrays.toString(numbers));
 
     }
 
