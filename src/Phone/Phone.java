@@ -34,7 +34,7 @@ public class Phone {
                 " number -> " + number);
     }
     void sendMessage(int...numbers){
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers)+ " -> отправить сообщение\n");
 
     }
 

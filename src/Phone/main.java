@@ -8,7 +8,6 @@ public class main {
         ph1.sendMessage(1234455,1234455);
         ph2.sendMessage(4567788);
         ph1.receiveCall("Alexandr");
-        ph1.getNumber();
         ph1.receiveCall("Alexandr",1443773);
         System.out.println(ph1);
         System.out.println(ph2);
