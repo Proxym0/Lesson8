@@ -1,7 +1,9 @@
 package Doсtor;
 
-public class Dentist extends Clinic{
+public class Dentist extends Doctor{
     void treats(){
-        System.out.println("Будем вырывать зубы");
+
+        System.out.println("Вырывает зубы");
     }
 }
+
